@@ -1,16 +1,22 @@
 body {
     margin: 0;
     display: flex;
-    justify-items: center;
-    align-content: center;
+    justify-content: center;
+    align-items: center;
     width: 100vw;
     height: 100vh;
     background-color: rosybrown;
 }
 
-h1 {
-    width: fit-content;
-    height: fit-content;
-    color: white;
-    font-family: sans-serif;
+div {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
 }
+
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}  

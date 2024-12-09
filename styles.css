@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-items: center;
+    align-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rosybrown;
+}
+
+h1 {
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    font-family: sans-serif;
+}
